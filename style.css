@@ -16,10 +16,21 @@ body {
   place-self: center;
 }
 
+.image-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  width: 100%;
+  max-width: 650px;
+}
+
 img {
-  max-width: 600px;
+  max-width: 100%;
   max-height: 600px;
   height: auto;
   border-radius: 10px;
-  margin-top: 20px;
+}
+
+.sectionTitles {
+  color: hsl(14, 45%, 36%);
 }
