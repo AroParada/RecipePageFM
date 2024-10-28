@@ -8,9 +8,22 @@ html {
   font-style: normal;
 }
 
+h1{
+  color: hsl(30, 5)4%, 90%;
+  margin-bottom: 0%;
+}
+
+p,
+h3,
+li {
+  margin-block: 15px; /* Adds top and bottom margin to text elements */
+  color: grey;
+}
+
 .header {
   font-family: "Young Serif", serif;
   font-weight: 400;
+  margin-top: 0%;
 }
 
 .container {
@@ -31,7 +44,7 @@ html {
   display: flex;
   justify-content: center;
   width: fit-content;
-  padding: 20px;
+  padding: 30px;
 }
 
 img {
@@ -46,19 +59,38 @@ img {
   color: hsl(14, 45%, 36%);
   font-family: "Young Serif", serif;
   font-weight: 400;
+  margin-bottom: 0%;
 }
 
 .cardBody {
   flex-direction: column;
   display: flex;
   justify-content: start;
-  padding: 20px;
+  padding: 30px;
   width: 100%;
   width: fit-content;
+  padding-top: 0%;
 }
 
 .prepCard {
   background-color: hsl(330, 100%, 95%);
-  padding: 20px;
+  padding: 10px;
   border-radius: 10px;
+}
+
+.prepHead {
+  color: hsl(333, 36%, 55%);
+}
+
+li {
+  color: hsl(14, 45%, 36%);
+}
+
+.prepBullets {
+  color: hsl(333, 36%, 55%);
+  margin: 0%;
+}
+
+.boldFont {
+  font-weight: 600;
 }
