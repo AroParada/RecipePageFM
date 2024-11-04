@@ -8,8 +8,8 @@ html {
   font-style: normal;
 }
 
-h1{
-  color: hsl(30, 5)4%, 90%;
+h1 {
+  color: hsl(30, 5) 4%, 90%;
   margin-bottom: 0%;
 }
 
@@ -93,4 +93,26 @@ li {
 
 .boldFont {
   font-weight: 600;
+}
+
+.table-with-lines {
+  border-collapse: collapse; /* Ensures borders don't double up */
+  width: 100%; /* Optional: Makes table full-width */
+  color: grey;
+}
+
+.table-with-lines tr {
+  border-bottom: 1px solid rgb(212, 212, 212); /* Adds a line below each row */
+}
+
+.table-with-lines td {
+  padding: 8px; /* Adds padding within cells */
+}
+
+.table-with-lines tr:last-child {
+  border-bottom: none; /* Removes the line from the last row */
+}
+
+.brown {
+  color: hsl(14, 45%, 36%);
 }
