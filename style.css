@@ -38,6 +38,7 @@ li {
   width: 800px;
   border-radius: 10px;
   place-self: center;
+  margin: 0px auto;
 }
 
 .image-container {
@@ -115,4 +116,24 @@ li {
 
 .brown {
   color: hsl(14, 45%, 36%);
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 110%;          /* Full width */
+    height: 100%;        /* Full height */
+    margin: 0;            /* Remove margin */
+    border-radius: 0;     /* Remove rounded corners */
+  }
+
+  .image-container, .cardBody {
+    padding: 0px;        /* Adjust padding for smaller screens */
+  }
+  img{
+    border-radius: 0px;
+  }
+
+  .cardBody {
+    padding: 30px;        /* Adjust padding for smaller screens */
+  }
 }
